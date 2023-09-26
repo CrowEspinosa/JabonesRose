@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <h1> Jabones Rose</h1>
+        
+        <h3> Jabones Artesanales </h3>
+
+        <style>
+            
+            h1{
+                color: rgb(255, 255, 255);
+                background-color: #512d40;
+                text-align: center;
+            }
+            h3{
+                color: rgb(204, 198, 175);
+                background-color: rgb(116, 82, 100);
+                text-align: center;
+            }
+            .formulario legend {
+                text-align: center;
+                font-size: 1.8rem;
+                font-weight: 700;
+                margin-bottom: 2rem;
+                color:#e7e69d
+        
+            }
+          .formulario {
+                background-color:#ab8ea0;
+                width: min(60rem, 100%);
+                margin: 0 auto;
+                border-radius: 1rem;
+                text-align: center;
+            }
+            
+        </style>
+        
+
+    </head>
+
+    <body>
+        <form action="datos.php" method="GET">
+
+        </form>
+        <form action="/my-handling-form-page" method="post" class="formulario">
+            <legend>Para iniciar sesion ingresa los datos:</legend>
+            <ul>
+            <li>
+            <label for="name">Usuario:</label>
+            <input type="text" id="name" name="user_name">
+            <li>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="text" id="name" name="user_name">
+            </li>
+            </li>
+            <li>
+            <label for="mail">Correo electronico:</label>
+            <input type="email" id="mail" name="user_mail">
+            </li>
+            <li>
+            <input type="submit" id="enviar" name="Enviar">
+            </li>
+             
+            </ul>
+           </form>
+        
+
+    </body>
+</html>
